@@ -19,7 +19,7 @@ FROM openjdk:8-jdk-alpine
 EXPOSE 8080
 
 #default command
-CMD java -jar /data/hello-world-0.1.0.jar
+CMD java -jar /data/HelloWorld-0.0.1-SNAPSHOT.jar
 
 #copy hello world to docker image from builder image
 
