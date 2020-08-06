@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
-	@RequestMapping(value="/hello",method=RequestMethod.GET)
+	@RequestMapping("/")
 	public String sayHello(ModelMap map)
 	{
 		return "Hello welcome to spring boot world";
